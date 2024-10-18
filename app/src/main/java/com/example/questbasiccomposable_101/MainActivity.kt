@@ -84,4 +84,8 @@ fun BasicCompos(modifier: Modifier = Modifier) {
             fontSize = 40.sp,
             color = Color.Black,
         )
+        Image(painter = painterResource(id = R.drawable.fotoku),
+            contentDescription = null
+        )//atau ""
     }
+}
