@@ -66,4 +66,11 @@ fun BasicCompos(modifier: Modifier = Modifier) {
         Image(painter = painterResource(id = R.drawable.logobarca),
             contentDescription = null
         ) //atau ""
+        Text(
+            text = "Nama",
+            style = TextStyle(
+                fontSize = 15.sp,
+                color = Color.Black,
+            )
+        )
     }
