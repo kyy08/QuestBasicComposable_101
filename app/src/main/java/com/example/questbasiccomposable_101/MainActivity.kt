@@ -23,3 +23,20 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.example.questbasiccomposable_101.ui.theme.QuestBasicComposable_101Theme
 
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            QuestBasicComposable_101Theme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    BasicCompos(
+                        modifier =
+                        Modifier.padding(innerPadding)
+                    )
+                }
+            }
+        }
+    }
+}
+
