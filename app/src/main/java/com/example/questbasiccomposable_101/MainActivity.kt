@@ -89,3 +89,12 @@ fun BasicCompos(modifier: Modifier = Modifier) {
         )//atau ""
     }
 }
+
+@Composable
+fun Greeting(name: String,modifier: Modifier = Modifier){
+    Text(
+        text = "Hello $name!",
+        modifier = modifier
+    )
+}
+
