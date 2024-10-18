@@ -73,4 +73,10 @@ fun BasicCompos(modifier: Modifier = Modifier) {
                 color = Color.Black,
             )
         )
+        Text(
+            text = "Mohamad Wahyu Rizki Adnan" ,
+            fontWeight = FontWeight.Bold,
+            fontSize = 16.sp,
+            color = Color.Red,
+        )
     }
