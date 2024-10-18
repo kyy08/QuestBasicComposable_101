@@ -63,4 +63,7 @@ fun BasicCompos(modifier: Modifier = Modifier) {
                 color = Color.Black,
             )
         )
+        Image(painter = painterResource(id = R.drawable.logobarca),
+            contentDescription = null
+        ) //atau ""
     }
