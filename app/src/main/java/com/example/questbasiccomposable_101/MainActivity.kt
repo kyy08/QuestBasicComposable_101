@@ -79,4 +79,9 @@ fun BasicCompos(modifier: Modifier = Modifier) {
             fontSize = 16.sp,
             color = Color.Red,
         )
+        Text(
+            text = "20220140101" ,
+            fontSize = 40.sp,
+            color = Color.Black,
+        )
     }
