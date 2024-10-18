@@ -43,4 +43,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BasicCompos(modifier: Modifier = Modifier) {
 //Text = "ini adalah text",
-
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize()
+    ){
