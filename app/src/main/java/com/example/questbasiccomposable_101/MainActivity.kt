@@ -39,4 +39,8 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+@Preview(showBackground = true)
+@Composable
+fun BasicCompos(modifier: Modifier = Modifier) {
+//Text = "ini adalah text",
 
